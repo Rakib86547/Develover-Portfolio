@@ -24,17 +24,25 @@ p{
     margin-left: 5%;
 }
 
-.details-area h1{
+h1{
     font-size: 50px;
+    font-weight: 600;
 }
 
-.details-area h2{
+ h2{
     font-size: 50px;
+    font-weight: 600;
 }
-
+h3{
+    font-size: 19px;
+    font-weight: 700;
+    color: 000000;
+}
 .details-area span{
-    font-size: 30px;
+    font-size: 50px;
     color: orange;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .image-area{
@@ -67,4 +75,87 @@ p{
     width: 100%;
     display: flex;
     align-items: center;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
+.image-section{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.jhankar-2{
+    width: 100%;
+}
+
+.dream-details{
+    width: 40%;
+    margin-right: 5%;
+}
+
+/* ##### CSS FOR EXPERIENCES ###### */
+
+#experience{
+    width: 100%; 
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 10% 0;
+    
+}
+
+
+.parent-box{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.parent-box h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.parent-box h3{
+    color: orange;
+    font-weight: 600;
+}
+
+.parent-box p{
+    font-size: 16px;
+}
+
+
+.box-1{
+    margin-right: 4%;
+    box-shadow: 5px 7px 40px grey;
+    padding-left: 35px;
+    border-left: 7px solid tomato;
+    padding-bottom: 8%;
+}
+
+.box-2{
+    margin-left: 4%;
+    box-shadow: 5px 7px 40px grey;
+    padding-left: 35px;
+    border-left: 7px solid blue;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
